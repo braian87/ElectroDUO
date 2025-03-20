@@ -1,0 +1,90 @@
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #2b2b2b;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header h1 {
+  color: #d4af37; /* Dorado */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+/* Sección Hero */
+.hero {
+  background: url('background.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 150px 20px;
+}
+
+.hero h2 {
+  font-size: 3em;
+}
+
+/* Secciones */
+section {
+  padding: 60px 20px;
+}
+
+section h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea, button {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #d4af37;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b28e2e;
+}
+
+.hidden {
+  display: none;
+}
+
+#form-message {
+  color: green;
+  margin-top: 10px;
+}
+
