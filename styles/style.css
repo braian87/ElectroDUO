@@ -182,16 +182,6 @@ header .logo h1 {
 }
 
 /* Hero Section */
-.hero {
-  background-color: #f4f4f4;
-  padding: 3rem;
-  text-align: center;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
 
 .hero p {
   font-size: 1.2rem;
