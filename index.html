@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electroduo - Servicios Eléctricos</title>
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <h1>Electroduo</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#sobre-nosotros">Sobre Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Sección Inicio -->
+  <section id="inicio" class="hero">
+    <h2>Soluciones Eléctricas para tu Hogar e Industria</h2>
+    <p>Calidad, Seguridad y Profesionalismo en cada instalación.</p>
+  </section>
+
+  <!-- Sección Sobre Nosotros -->
+  <section id="sobre-nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos Braian y Rocío, apasionados por brindar servicios eléctricos eficientes y seguros. Nuestra experiencia en instalaciones domiciliarias e industriales nos avala.</p>
+  </section>
+
+  <!-- Sección Servicios -->
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <ul>
+      <li>Instalaciones Eléctricas Domiciliarias</li>
+      <li>Instalaciones Eléctricas Industriales</li>
+      <li>Mantenimiento Preventivo y Correctivo</li>
+      <li>Automatización de Sistemas Eléctricos</li>
+    </ul>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <form id="contact-form">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" required />
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" required></textarea>
+      
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="form-message" class="hidden">¡Mensaje enviado con éxito!</p>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
