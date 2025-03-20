@@ -87,4 +87,147 @@ button:hover {
   color: green;
   margin-top: 10px;
 }
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header .logo h1 {
+  font-size: 1.8rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 2rem;
+}
+
+.nav-links li a {
+  font-size: 1.1rem;
+  color: white;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.hamburger span {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    padding: 1rem 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 1rem 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f4f4f4;
+  padding: 3rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ffcc00;
+}
+
+/* Hidden Message */
+.hidden {
+  display: none;
+  }
