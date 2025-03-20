@@ -40,8 +40,8 @@ nav a:hover {
   background-size: contain;
   color: white;
   text-align: center;
-  padding: 150px 50px;
-  margin-top: 70px; /* Ajusta según sea necesario */
+  padding: 150px 20px;
+  /* Ajusta según sea necesario */
 }
 .hero h2 {
   font-size: 3em;
